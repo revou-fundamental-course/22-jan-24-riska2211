@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Galon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation-galon">
+        <img scr="asset/galonn.png" alt="logo">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+    </nav>
+    <header>
+        <h1>Be our next generation of kang galon</h1>
+        <p>Tanpa air, Kita kering</p>
+    </header>
+
+    <section>
+        <img scr="https://cleopurewater.com/wp-content/uploads/2023/05/cleo-galon.png" alt="header">
+        <h6>Manusia memiliki 70% air didalam tubuh</h6>
+    </section>
+
+
+    <aside>
+        <h4>Daftar sekarang untuk jadi distributor resmi</h4>
+        <p>Kami akan menghubungi anda 1x24 jam</p>
+        <p>setelah pengisian form berhasil.</p>
+        <form>
+            <label for="fname">Nama :</label><br>
+                <input type="text" id="fname" name="fname" placeholder="John" style="width:100%"><br>
+            <label for="sandi">Password :</label><br>
+                <input type="password" id="sandi" name="sandi" placeholder="Buatlah sandi yang kuat" style="width:100%"><br><br>
+            <label for="alamat">Alamat :</label><br>
+                <input type="text" id="alamat" name="alamat" placeholder="Mohon diisi alamat lengkap" style="width:100%"><br>
+            
+            <label for="paketpilih">Paket yang dipilih :</label><br>
+            <input list="browsers" name="browser" style="width:100%;">
+            <datalist id="browsers">
+                <option value="Edge">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+            
+        </form><br>
+        <input type="submit" onclick="alert('Data Tersimpan! Terimakasih')" value="Submit">
+        <input type="Reset" value="Reset">
+    </aside>
+    
+</body>
+</html>
